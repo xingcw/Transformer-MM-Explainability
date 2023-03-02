@@ -1,5 +1,5 @@
 [ICCV 2021- Oral] PyTorch Implementation of `Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers <https://arxiv.org/abs/2103.15679>`_
-=================================================================================================================================================================
+===================================================================================================================================================================================
 
 |youtube|
 
@@ -138,6 +138,7 @@ DETR
       .. code-block:: python
 
        self.iouThrs = np.linspace(.5, 0.95, int(np.round((0.95 - .5) / .05)) + 1, endpoint=True)
+     
      use: 
   
       .. code-block:: python
